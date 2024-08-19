@@ -1,15 +1,9 @@
 import React from 'react';
-import Button from './class-components';
-import Calculator from './calculator';
-import {EventData} from './event-data'
+import MessageBox from './stage-func';
 
 function App() {
   return (
-    <div>
-      <Button />
-      <Calculator />
-      <EventData />
-    </div>
+    <MessageBox></MessageBox>
   );
 }
 
