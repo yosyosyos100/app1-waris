@@ -1,5 +1,5 @@
 import React from 'react';
-import MessageBox from './stage-func';
+import MessageBox from './state-func';
 
 function App() {
   return (

@@ -24,11 +24,11 @@ export default function MessageBox(){
         textAllign:'left'
     }
     return(
-        <div style={{textAllign:'center',marginTop:20}}>
-            <div style={msgboxStyle}>(text)</div><br/><br/>
-            <button onClick={onClicksetText}>ข้อความ</button>&nbsp
-            <button onClick={onClickZoomIn}>เพิ่มขนาด</button>&nbsp
-            <button onClick={()=>setSize(size-1)}>ลดขนาด</button>&nbsp
+        <div style={{textAlign:'center',marginTop:20}}>
+            <div style={msgboxStyle}>{text}</div><br/><br/>
+            <button onClick={onClicksetText}>ข้อความ</button>&nbsp;
+            <button onClick={onClickZoomIn}>เพิ่มขนาด</button>&nbsp;
+            <button onClick={()=>setSize(size-1)}>ลดขนาด</button>&nbsp;
         </div>
     )
 }

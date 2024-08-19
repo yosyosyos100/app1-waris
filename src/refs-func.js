@@ -1,8 +1,8 @@
 import React from "react";
 
 export default function RefsFunc(){
-    const num1=useRef()
-    const num2=useRef()
+    const num1=React.useRef()
+    const num2=React.useRef()
     const operator=React.useRef()
     const result=React.useRef()
 
@@ -15,7 +15,7 @@ export default function RefsFunc(){
         operator.current.innerText=op
     }
     return(
-        <div style={{textAlign:'center', margin:top, fontSize: 10}}>
+        <div style={{textAlign:'center', margin:10, fontSize:50}}>
             <span ref={num1}>15</span>&nbsp;
             <span ref={operator}>?</span>
             <span ref={num2}>5</span>
