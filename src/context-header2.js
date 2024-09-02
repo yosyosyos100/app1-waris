@@ -28,7 +28,7 @@ export default class Header2 extends React.Component{
                     (user)
                     ?<span>[{user}&nbsp;:&nbsp;<a href=''
                         onClick={onClickSignout}>Signout</a>]</span>
-                    :<span>[{user}&nbsp;:&nbsp;<a href=''
+                    :<span>[{user}&nbsp;<a href=''
                     onClick={onClickSignin}>Signin</a>]</span>
                 }
            
